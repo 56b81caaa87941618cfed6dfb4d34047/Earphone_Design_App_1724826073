@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where do you want the 'nine' button to be positioned on the app?\", \"option1\": \"In the app's main navigation bar\", \"option2\": \"Within a specific section of the app\"}, {\"question 2\": \"What action should be triggered when the 'nine' button is pressed?\", \"option1\": \"Navigate to a new page within the app\", \"option2\": \"Display a pop-up message or modal\"}], \"input_token_count\": 272, \"output_token_count\": 103, \"time_taken\": \"0:00:02.723309\"}",
+        "message_id": "guest28082024062146",
+        "timestamp": "28082024062151",
+        "component_file_name": "simple_cta_component_1724826075",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Certainly, I will add a button with the text \"nine\".",
         "message_id": "guest28082024062146",
