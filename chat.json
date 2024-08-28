@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the new button with the text 'nibne' to replace the previously requested 'nine' button, or should it be an additional button?\", \"option1\": \"Replace the 'nine' button\", \"option2\": \"Add as an additional button\"}, {\"question 2\": \"Where would you like the 'nibne' button to be positioned in relation to other elements on the page?\", \"option1\": \"Above the existing elements\", \"option2\": \"Below the existing elements\"}], \"input_token_count\": 300, \"output_token_count\": 118, \"time_taken\": \"0:00:03.480201\"}",
+        "message_id": "guest28082024065644",
+        "timestamp": "28082024065650",
+        "component_file_name": "simple_cta_component_1724826075",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Adjust the button text to 'nibne'\", \"checked\": true}, {\"feature\": \"Add tooltip for button explaining its purpose\", \"checked\": true}, {\"feature\": \"Implement hover effect for the button to improve user interaction\", \"checked\": false}, {\"feature\": \"Add a confirmation dialog on button click to prevent accidental actions\", \"checked\": false}, {\"feature\": \"Enable button customization in settings for text and color\", \"checked\": false}], \"input_token_count\": 254, \"output_token_count\": 107, \"time_taken\": \"0:00:03.003361\"}",
         "message_id": "guest28082024065644",
