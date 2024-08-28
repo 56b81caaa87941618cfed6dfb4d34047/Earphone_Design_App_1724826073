@@ -2,12 +2,33 @@
 INSTRUCTION: Summary: This component contains a h2 heading title for the CTA, a line of text under it, and a button underneath it. They are all centre aligned.
 -->
 <template>
-    <section id="cta-component" class="bg-gray-50 dark:bg-gray-800 flex-1" style=""><div id="cta-inner-container" data-mf-new="true" class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6" style=""><div id="cta-content" class="max-w-screen-sm mx-auto text-center"><div id="cta-title-container" class="flex"><h2 id="cta-title" data-mf-new="true" class="flex-1 mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white"></h2></div> <div id="cta-subtitle-container" class="flex" style=""><p id="cta-subtitle" class="flex-1 mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg" style="">
+    <section id="cta-component" class="bg-gradient-to-br from-pink-500 to-purple-700 flex-1 py-16">
+        <div id="cta-inner-container" class="max-w-screen-xl px-6 mx-auto">
+            <div id="cta-content" class="max-w-screen-sm mx-auto text-center bg-white bg-opacity-20 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg p-8">
+                <div id="cta-title-container" class="flex mb-4">
+                    <h2 id="cta-title" class="flex-1 text-3xl font-extrabold leading-tight tracking-tight text-white">
+                        Discover Your Sound
+                    </h2>
+                </div>
+                <div id="cta-subtitle-container" class="flex mb-8">
+                    <p id="cta-subtitle" class="flex-1 text-lg font-light text-pink-100">
                         Transform your audio vision into reality with our cutting-edge earphone manufacturing solution
-                    </p></div> <div id="cta-button-container" class="flex"><a id="cta-button" href="#" class="flex-1 text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">
-                        Start Creating Your Own dreams
+                    </p>
+                </div>
+                <div id="cta-button-container" class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a id="cta-button" href="#" class="flex-1 text-purple-900 bg-pink-300 hover:bg-pink-400 focus:ring-4 focus:ring-pink-200 font-medium rounded-lg text-lg px-6 py-3 transition duration-300 ease-in-out transform hover:scale-105">
+                        <i class='bx bx-headphone mr-2'></i>
                         Start Creating
-                    </a> <a id="nine-button" href="#" data-mf-new="true" class="flex-1 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-2 mb-2 dark:bg-blue-500 dark:hover:bg-blue-600 focus:outline-none dark:focus:ring-blue-700" style="">Not the Nines'1</a></div></div></div></section>
+                    </a>
+                    <a id="nine-button" href="#" class="flex-1 text-pink-100 bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-lg px-6 py-3 transition duration-300 ease-in-out transform hover:scale-105">
+                        <i class='bx bx-rocket mr-2'></i>
+                        Explore More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
 </template>
 
 <script>
