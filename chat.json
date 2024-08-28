@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Thanks for the input! Working on adding the button with text.",
+        "message_id": "guest28082024065644",
+        "timestamp": "28082024065646",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "add a button with text nibne",
         "message_id": "guest28082024065644",
