@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it, adding a button to the interface.",
+        "message_id": "guest28082024071201",
+        "timestamp": "28082024071203",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Would you like the new button with the text 'nibne' to replace the previously requested 'nine' button, or should it be an additional button?\", \"option1\": \"Replace the 'nine' button\", \"option2\": \"Add as an additional button\"}, {\"question 2\": \"Where would you like the 'nibne' button to be positioned in relation to other elements on the page?\", \"option1\": \"Above the existing elements\", \"option2\": \"Below the existing elements\"}], \"input_token_count\": 300, \"output_token_count\": 118, \"time_taken\": \"0:00:03.480201\"}",
         "message_id": "guest28082024065644",
