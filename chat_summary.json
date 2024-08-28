@@ -24,5 +24,11 @@
         "content": "add a button with text nibne",
         "timestamp": "28082024065646",
         "message_id": "guest28082024065644"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Thanks for the input! Working on adding the button with text.",
+        "timestamp": "28082024065646",
+        "message_id": "guest28082024065644"
     }
 ]
