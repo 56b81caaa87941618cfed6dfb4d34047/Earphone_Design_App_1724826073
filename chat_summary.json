@@ -54,5 +54,11 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Can you clarify the text you would like displayed on the new button?\", \"option1\": \"Use the same text as previously requested ('nibne')\", \"option2\": \"Enter a new text for the button\"}, {\"question 2\": \"Would you like this new button to have any specific functionality or link to a different part of the app?\", \"option1\": \"Yes, it should have a specific function or link\", \"option2\": \"No, it's just a display button with no special functionality\"}], \"input_token_count\": 322, \"output_token_count\": 120, \"time_taken\": \"0:00:06.154008\"}",
         "timestamp": "28082024071210",
         "message_id": "guest28082024071201"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Correct typo in button text to 'nine'\", \"checked\": true}, {\"feature\": \"Add hover effect on button for better user interaction\", \"checked\": false}, {\"feature\": \"Implement button click animation for user feedback\", \"checked\": false}, {\"feature\": \"Enable button to play a sound when clicked for an engaging experience\", \"checked\": false}, {\"feature\": \"Adjust button alignment for optimal placement on mobile and desktop views\", \"checked\": true}, {\"feature\": \"Add accessibility features to button, including keyboard navigation and screen reader support\", \"checked\": false}], \"input_token_count\": 276, \"output_token_count\": 133, \"time_taken\": \"0:00:06.726906\"}",
+        "timestamp": "28082024071211",
+        "message_id": "guest28082024071201"
     }
 ]
